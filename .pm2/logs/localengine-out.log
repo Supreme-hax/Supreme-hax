@@ -1,0 +1,29 @@
+Starting up http-server, serving .
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: true
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.43.42:8787
+  http://127.0.0.1:8787
+Hit CTRL-C to stop the server
+
+[2025-08-26T07:57:36.676Z]  "GET /favicon.ico" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:57:36.744Z]  "GET /favicon.ico" Error (404): "Not found"
+[2025-08-26T07:57:37.508Z]  "GET /" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:39.781Z]  "GET /" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:41.204Z]  "GET /" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:50.210Z]  "GET /crypto-localengine/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:50.282Z]  "GET /crypto-localengine/css/localengine.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:50.288Z]  "GET /crypto-localengine/vendor/plotly.min.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:50.346Z]  "GET /crypto-localengine/js/localengine.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-08-26T07:59:50.815Z]  "GET /crypto-localengine/js/local-indicators.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"

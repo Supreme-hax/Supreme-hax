@@ -1,0 +1,250 @@
+2025-08-26T11:13:02: PM2 log: ===============================================================================
+2025-08-26T11:13:02: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-08-26T11:13:02: PM2 log: Time                 : Tue Aug 26 2025 11:13:02 GMT+0600 (Bangladesh Standard Time)
+2025-08-26T11:13:02: PM2 log: PM2 version          : 6.0.8
+2025-08-26T11:13:02: PM2 log: Node.js version      : 22.18.0
+2025-08-26T11:13:02: PM2 log: Current arch         : arm64
+2025-08-26T11:13:02: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2025-08-26T11:13:02: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2025-08-26T11:13:02: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2025-08-26T11:13:02: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2025-08-26T11:13:02: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2025-08-26T11:13:02: PM2 log: Worker Interval      : 30000
+2025-08-26T11:13:02: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2025-08-26T11:13:02: PM2 log: Concurrent actions   : 2
+2025-08-26T11:13:02: PM2 log: SIGTERM timeout      : 1600
+2025-08-26T11:13:02: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2025-08-26T11:13:02: PM2 log: ===============================================================================
+2025-08-26T11:13:03: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:03: PM2 log: App [localengine:0] online
+2025-08-26T11:13:03: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T11:13:03: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:346:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2025-08-26T11:13:03: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:346:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2025-08-26T11:13:04: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:04: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:04: PM2 log: App [localengine:0] online
+2025-08-26T11:13:04: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T11:13:04: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:04: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:04: PM2 log: App [localengine:0] online
+2025-08-26T11:13:05: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:05: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:05: PM2 log: App [localengine:0] online
+2025-08-26T11:13:05: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:05: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:05: PM2 log: App [localengine:0] online
+2025-08-26T11:13:06: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:06: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:06: PM2 log: App [localengine:0] online
+2025-08-26T11:13:06: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:06: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:06: PM2 log: App [localengine:0] online
+2025-08-26T11:13:07: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:07: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:07: PM2 log: App [localengine:0] online
+2025-08-26T11:13:07: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:07: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:07: PM2 log: App [localengine:0] online
+2025-08-26T11:13:08: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:08: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:08: PM2 log: App [localengine:0] online
+2025-08-26T11:13:08: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:08: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:08: PM2 log: App [localengine:0] online
+2025-08-26T11:13:09: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:09: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:09: PM2 log: App [localengine:0] online
+2025-08-26T11:13:10: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:10: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:10: PM2 log: App [localengine:0] online
+2025-08-26T11:13:10: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:10: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:10: PM2 log: App [localengine:0] online
+2025-08-26T11:13:11: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:11: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:11: PM2 log: App [localengine:0] online
+2025-08-26T11:13:11: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:11: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T11:13:11: PM2 log: App [localengine:0] online
+2025-08-26T11:13:12: PM2 log: App [localengine:0] exited with code [1] via signal [SIGINT]
+2025-08-26T11:13:12: PM2 log: Script /data/data/com.termux/files/usr/bin/bash had too many unstable restarts (16). Stopped. "errored"
+2025-08-26T12:38:12: PM2 log: ===============================================================================
+2025-08-26T12:38:12: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-08-26T12:38:12: PM2 log: Time                 : Tue Aug 26 2025 12:38:12 GMT+0600 (Bangladesh Standard Time)
+2025-08-26T12:38:12: PM2 log: PM2 version          : 6.0.8
+2025-08-26T12:38:12: PM2 log: Node.js version      : 22.18.0
+2025-08-26T12:38:12: PM2 log: Current arch         : arm64
+2025-08-26T12:38:12: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2025-08-26T12:38:12: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2025-08-26T12:38:12: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2025-08-26T12:38:12: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2025-08-26T12:38:12: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2025-08-26T12:38:12: PM2 log: Worker Interval      : 30000
+2025-08-26T12:38:12: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2025-08-26T12:38:12: PM2 log: Concurrent actions   : 2
+2025-08-26T12:38:12: PM2 log: SIGTERM timeout      : 1600
+2025-08-26T12:38:12: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2025-08-26T12:38:12: PM2 log: ===============================================================================
+2025-08-26T12:38:12: PM2 log: App [localengine:0] starting in -fork mode-
+2025-08-26T12:38:12: PM2 log: App [localengine:0] online
+2025-08-26T12:38:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T12:38:12: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:346:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2025-08-26T12:38:12: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2025-08-26T12:40:14: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T12:46:15: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T12:46:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T12:55:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:06:22: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:14:47: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:16:43: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:18:01: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:27:51: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:34:28: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:57:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:58:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:58:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:59:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:59:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:59:20: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:20: PM2 log: App [localengine:1] online
+2025-08-26T13:59:20: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T13:59:20: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:20: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:20: PM2 log: App [localengine:1] online
+2025-08-26T13:59:21: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:21: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:21: PM2 log: App [localengine:1] online
+2025-08-26T13:59:21: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:21: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:21: PM2 log: App [localengine:1] online
+2025-08-26T13:59:22: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:22: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:22: PM2 log: App [localengine:1] online
+2025-08-26T13:59:22: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:22: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:22: PM2 log: App [localengine:1] online
+2025-08-26T13:59:23: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:23: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:23: PM2 log: App [localengine:1] online
+2025-08-26T13:59:23: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:23: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:23: PM2 log: App [localengine:1] online
+2025-08-26T13:59:24: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:24: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:24: PM2 log: App [localengine:1] online
+2025-08-26T13:59:24: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:24: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:24: PM2 log: App [localengine:1] online
+2025-08-26T13:59:25: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:25: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:25: PM2 log: App [localengine:1] online
+2025-08-26T13:59:25: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:25: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:25: PM2 log: App [localengine:1] online
+2025-08-26T13:59:26: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:26: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:26: PM2 log: App [localengine:1] online
+2025-08-26T13:59:26: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:26: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:27: PM2 log: App [localengine:1] online
+2025-08-26T13:59:27: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:27: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:27: PM2 log: App [localengine:1] online
+2025-08-26T13:59:28: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:28: PM2 log: App [localengine:1] starting in -fork mode-
+2025-08-26T13:59:28: PM2 log: App [localengine:1] online
+2025-08-26T13:59:28: PM2 log: App [localengine:1] exited with code [1] via signal [SIGINT]
+2025-08-26T13:59:28: PM2 log: Script /data/data/com.termux/files/usr/bin/bash had too many unstable restarts (16). Stopped. "errored"
+2025-08-26T13:59:37: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:00:07: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:00:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:01:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:01:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:02:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:02:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:03:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:03:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:04:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:04:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:05:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:05:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:06:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:06:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:07:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:07:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:08:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:08:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:09:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:09:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:10:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:10:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:11:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:11:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:12:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2025-08-26T14:12:42: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
