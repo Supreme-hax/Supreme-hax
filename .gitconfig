@@ -2,4 +2,4 @@
 	name = Supreme-hax
 	email = Arshanulhoq@gmail.com
 [credential]
-	helper = store
+	helper = store --file ~/.config/git/credentials
