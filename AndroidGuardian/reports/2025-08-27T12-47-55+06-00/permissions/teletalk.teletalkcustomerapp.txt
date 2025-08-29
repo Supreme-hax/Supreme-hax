@@ -1,0 +1,7 @@
+No command dumpsys found, did you mean:
+ Command dcmpsmk in package dcmtk
+ Command dumpe2fs in package e2fsprogs
+ Command dumpsexp in package libgcrypt
+ Command dumpcap in package tshark from the root-repo repository
+ Command dumpcap in package wireshark-qt
+[12:49:04] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log

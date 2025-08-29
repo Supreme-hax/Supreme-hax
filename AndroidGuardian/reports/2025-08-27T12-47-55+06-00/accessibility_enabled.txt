@@ -1,0 +1,2 @@
+$ settings get secure accessibility_enabled
+cmd: Failure calling service settings: Failed transaction (2147483646)

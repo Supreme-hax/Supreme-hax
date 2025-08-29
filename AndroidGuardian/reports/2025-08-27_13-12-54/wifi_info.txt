@@ -1,0 +1,9 @@
+=== Wi-Fi INFO (Wed Aug 27 13:13:08 +06 2025) ===
+30: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 3000
+    link/ether f6:2b:9f:ca:f2:a8 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.11/24 brd 192.168.1.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f42b:9fff:feca:f2a8/64 scope link 
+       valid_lft forever preferred_lft forever
+
+INET (IPv4) not configured in this system.

@@ -1,0 +1,215 @@
+[12:47:55] AndroidGuardian v1.2.0 — starting at 2025-08-27T12:47:55+06:00
+[12:47:55] Report directory: /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00
+[12:47:55] [WARN] Termux storage not initialized. Running termux-setup-storage...
+[12:47:57] Installing jq for jq ...
+No mirror or mirror group selected. You might want to select one by running 'termux-change-repo'
+Checking availability of current mirror:
+[*] https://termux.librehat.com/apt/termux-main: ok
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://termux.librehat.com/apt/termux-main stable InRelease
+Hit:2 https://termux.librehat.com/apt/termux-x11 x11 InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  oniguruma
+The following NEW packages will be installed:
+  jq oniguruma
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 316 kB of archives.
+After this operation, 1237 kB of additional disk space will be used.
+Get:1 https://termux.librehat.com/apt/termux-main stable/main aarch64 oniguruma aarch64 6.9.10 [136 kB]
+Get:2 https://termux.librehat.com/apt/termux-main stable/main aarch64 jq aarch64 1.8.1 [179 kB]
+Fetched 316 kB in 2s (129 kB/s)
+Selecting previously unselected package oniguruma.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20489 files and directories currently installed.)
+Preparing to unpack .../oniguruma_6.9.10_aarch64.deb ...
+Unpacking oniguruma (6.9.10) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../archives/jq_1.8.1_aarch64.deb ...
+Unpacking jq (1.8.1) ...
+Setting up oniguruma (6.9.10) ...
+Setting up jq (1.8.1) ...
+[12:48:04] Installing iproute2 for ss ...
+No mirror or mirror group selected. You might want to select one by running 'termux-change-repo'
+Checking availability of current mirror:
+[*] https://termux.librehat.com/apt/termux-main: ok
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  iproute2
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 818 kB of archives.
+After this operation, 2920 kB of additional disk space will be used.
+Get:1 https://termux.librehat.com/apt/termux-main stable/main aarch64 iproute2 aarch64 6.16.0 [818 kB]
+Fetched 818 kB in 6s (146 kB/s)
+Selecting previously unselected package iproute2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20508 files and directories currently installed.)
+Preparing to unpack .../iproute2_6.16.0_aarch64.deb ...
+Unpacking iproute2 (6.16.0) ...
+Setting up iproute2 (6.16.0) ...
+[12:48:12] Installing nmap for nmap ...
+No mirror or mirror group selected. You might want to select one by running 'termux-change-repo'
+Checking availability of current mirror:
+[*] https://termux.librehat.com/apt/termux-main: ok
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  liblua54 libpcap
+The following NEW packages will be installed:
+  liblua54 libpcap nmap
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5385 kB of archives.
+After this operation, 29.2 MB of additional disk space will be used.
+Get:1 https://termux.librehat.com/apt/termux-main stable/main aarch64 liblua54 aarch64 5.4.8-2 [96.9 kB]
+Get:2 https://termux.librehat.com/apt/termux-main stable/main aarch64 libpcap aarch64 1.10.5 [228 kB]
+Get:3 https://termux.librehat.com/apt/termux-main stable/main aarch64 nmap aarch64 7.98 [5060 kB]
+Fetched 5385 kB in 13s (413 kB/s)
+Selecting previously unselected package liblua54.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 20678 files and directories currently installed.)
+Preparing to unpack .../liblua54_5.4.8-2_aarch64.deb ...
+Unpacking liblua54 (5.4.8-2) ...
+Selecting previously unselected package libpcap.
+Preparing to unpack .../libpcap_1.10.5_aarch64.deb ...
+Unpacking libpcap (1.10.5) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../archives/nmap_7.98_aarch64.deb ...
+Unpacking nmap (7.98) ...
+Setting up libpcap (1.10.5) ...
+Setting up liblua54 (5.4.8-2) ...
+Setting up nmap (7.98) ...
+update-alternatives: using /data/data/com.termux/files/usr/bin/netcat-nmap to provide /data/data/com.termux/files/usr/bin/nc (nc) in auto mode
+update-alternatives: warning: skipping updating manpage database as 'makewhatis' command from 'mandoc' package is not installed
+[12:48:28] [WARN] Missing Android binary: dumpsys. Some checks may be limited.
+------------------------------------------------------------
+[12:48:28] Collecting system snapshot...
+[12:48:29] [OK] Android 12 • Model: M2101K7AG
+------------------------------------------------------------
+[12:48:29] Enumerating third-party packages...
+[12:48:29] [OK] Found 79 third-party packages
+------------------------------------------------------------
+[12:48:29] Scanning permissions (best effort via dumpsys)...
+[12:48:29] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:30] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:30] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:30] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:31] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:31] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:32] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:32] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:33] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:33] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:33] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:34] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:34] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:35] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:35] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:36] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:36] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:37] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:37] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:38] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:38] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:38] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:39] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:39] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:40] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:40] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:41] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:41] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:42] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:42] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:42] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:43] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:43] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:44] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:44] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:45] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:45] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:46] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:46] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:47] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:47] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:47] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:48] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:48] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:49] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:49] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:50] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:50] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:50] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:51] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:51] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:52] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:52] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:53] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:53] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:54] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:54] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:55] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:55] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:55] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:56] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:56] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:57] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:57] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:58] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:58] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:58] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:59] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:48:59] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:00] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:00] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:00] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:01] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:01] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:02] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:02] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:03] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:03] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:04] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:04] [OK] Permission scan saved (perm_summary.csv)
+------------------------------------------------------------
+[12:49:04] Collecting AppOps (camera/mic/SMS/overlay/usage/clipboard/notifications)...
+[12:49:05] [OK] AppOps collected (appops_recent.csv)
+------------------------------------------------------------
+[12:49:05] Checking accessibility services and listeners...
+------------------------------------------------------------
+[12:49:05] Inspecting device policy and admins...
+[12:49:05] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+------------------------------------------------------------
+[12:49:05] Checking active/recent camera and microphone usage...
+[12:49:05] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+[12:49:05] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+------------------------------------------------------------
+[12:49:05] Checking ADB/developer settings...
+------------------------------------------------------------
+[12:49:06] Collecting jobs and alarms...
+[12:49:06] [ERROR] Unexpected error on line 2. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log
+------------------------------------------------------------
+[12:49:06] Enumerating active network connections...
+------------------------------------------------------------
+[12:49:06] Running lightweight LAN discovery (nmap -sn) ...
+------------------------------------------------------------
+[12:49:15] Scoring risk (heuristic)...
+[12:49:17] [OK] Risk scoring complete (risk_list.csv)
+------------------------------------------------------------
+[12:49:17] Generating final report...
+[12:49:17] [ERROR] Unexpected error on line 294. See /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/run.log

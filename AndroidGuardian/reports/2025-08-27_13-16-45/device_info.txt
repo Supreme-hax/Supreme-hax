@@ -1,0 +1,42 @@
+=== DEVICE INFO (Wed Aug 27 13:16:58 +06 2025) ===
+Linux localhost 4.14.190-perf-gcfbf768af191 #1 SMP PREEMPT Sun Jun 16 08:28:06 CST 2024 aarch64 Android
+Uptime: up 15 hours, 53 minutes
+Storage:
+Filesystem                           Size Used Avail Use% Mounted on
+/dev/block/dm-8                      2.9G 2.9G     0 100% /
+tmpfs                                2.7G 1.6M  2.7G   1% /dev
+tmpfs                                2.7G    0  2.7G   0% /mnt
+/dev/block/bootdevice/by-name/rescue 108M 5.2M   99M   6% /mnt/rescue
+/dev/block/dm-9                      541M 539M     0 100% /system_ext
+/dev/block/dm-10                     1.1G 1.1G     0 100% /vendor
+/dev/block/dm-11                     1.6G 1.6G     0 100% /product
+tmpfs                                2.7G  52K  2.7G   1% /apex
+/dev/block/dm-13                     836K 808K   12K  99% /apex/com.android.ipsec@360527560
+/dev/block/loop7                     1.5M 1.5M     0 100% /apex/com.google.mainline.primary.libs@331341070
+/dev/block/dm-14                      26M  26M     0 100% /apex/com.android.tethering@360743340
+/dev/block/dm-15                     2.1M 2.0M     0 100% /apex/com.google.mainline.primary.libs@351061000
+/dev/block/loop9                     108M 108M     0 100% /apex/com.android.vndk.v30@1
+/dev/block/loop10                    8.3M 8.3M     0 100% /apex/com.android.runtime@1
+/dev/block/dm-16                     4.4M 4.4M     0 100% /apex/com.android.resolv@360735100
+/dev/block/dm-17                      31M  31M     0 100% /apex/com.android.mediaprovider@360738280
+/dev/block/dm-18                     2.9M 2.9M     0 100% /apex/com.android.os.statsd@360737020
+/dev/block/dm-19                     6.6M 6.6M     0 100% /apex/com.android.media@360737060
+/dev/block/loop15                    232K  88K  140K  39% /apex/com.android.apex.cts.shim@1
+/dev/block/loop16                     35M  35M     0 100% /apex/com.android.i18n@1
+/dev/block/dm-20                     764K 736K   16K  98% /apex/com.android.sdkext@360655020
+/dev/block/dm-21                     7.6M 7.5M     0 100% /apex/com.android.neuralnetworks@360527560
+/dev/block/dm-22                      19M  19M     0 100% /apex/com.android.cellbroadcast@360735060
+/dev/block/loop20                    2.0M 2.0M     0 100% /apex/com.android.appsearch@300000000
+/dev/block/dm-23                      28M  28M     0 100% /apex/com.android.media.swcodec@360737020
+/dev/block/dm-24                      10M  10M     0 100% /apex/com.android.adbd@360527560
+/dev/block/dm-25                     232K 104K  124K  46% /apex/com.android.scheduling@360527560
+/dev/block/dm-26                     764K 736K   16K  98% /apex/com.android.tzdata@315500000
+/dev/block/dm-27                     7.0M 6.9M     0 100% /apex/com.android.conscrypt@360527560
+/dev/block/dm-28                      41M  41M     0 100% /apex/com.android.art@360729140
+/dev/block/dm-29                      26M  26M     0 100% /apex/com.android.permission@360743220
+/dev/block/loop28                     40M  40M     0 100% /apex/com.android.vndk.v31@1
+/dev/block/dm-30                      25M  25M     0 100% /apex/com.android.extservices@360737100
+/dev/block/dm-31                     5.5M 5.5M     0 100% /apex/com.android.wifi@319999900
+/dev/block/bootdevice/by-name/cust   976M 172M  778M  19% /cust
+/dev/block/dm-12                     105G  83G   22G  80% /data
+/dev/fuse                            105G  83G   22G  80% /storage/emulated

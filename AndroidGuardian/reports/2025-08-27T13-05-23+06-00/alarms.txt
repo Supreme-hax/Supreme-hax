@@ -1,0 +1,2 @@
+$ dumpsys alarm
+/data/data/com.termux/files/home/AndroidGuardian/guardian.sh: line 70: dumpsys: command not found

@@ -1,0 +1,1 @@
+$ grep -E ,SYSTEM_ALERT_WINDOW$ /data/data/com.termux/files/home/AndroidGuardian/reports/2025-08-27T12-47-55+06-00/perm_summary.csv
