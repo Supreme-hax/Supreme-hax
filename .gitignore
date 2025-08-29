@@ -1,0 +1,6 @@
+.secrets/gh_pat
+.git-credentials
+deploy.sh
+*.sh
+*.env
+node_modules/
